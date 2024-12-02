@@ -15,7 +15,7 @@ public class SumOfDigits {
         System.out.println(sum);
         System.out.println(sum);
         System.out.println(sum);
-
+        //new file
     }
 
 }
