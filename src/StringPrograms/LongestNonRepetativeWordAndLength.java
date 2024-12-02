@@ -5,7 +5,7 @@ import java.util.HashSet;
 public class LongestNonRepetativeWordAndLength {
     //data-->maxlength=0,start=0,end=0. if already present in set increase start by 1 start++,else add that char in set..at last update maxlength by Math.max(maxlength,end-start +1)
         public static int longestUniqueSubstring(String s) {
-            int maxLength = 0;
+            int maxLength=0;
             int start = 0;
             HashSet<Character> charSet = new HashSet<>();
 
@@ -30,7 +30,7 @@ public class LongestNonRepetativeWordAndLength {
 
         public static void main(String[] args) {
             String input = "abcabcbbabcde";
-            System.out.println("Longest unique substring length: " + "\n"+longestUniqueSubstring(input));
+            System.out.println("Longest unique substring length of:q: " + "\n"+longestUniqueSubstring(input));
         }
     }
 
