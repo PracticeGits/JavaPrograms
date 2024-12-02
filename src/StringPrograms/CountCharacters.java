@@ -4,7 +4,7 @@ public class CountCharacters{
 
     public static  void main(String[] args) {
 
-        //login and merge nad dance
+        //login and merge nad dance and play and fun
         String s ="Welcome Home buddy";
         int count = 0;
         for(int i=0;i<=s.length()-1;i++){
