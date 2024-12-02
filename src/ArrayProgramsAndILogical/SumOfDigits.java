@@ -13,7 +13,8 @@ public class SumOfDigits {
             num=num/10;
         }
         System.out.println(sum);
-
+        System.out.println(sum);
+        System.out.println(sum);
 
     }
 
